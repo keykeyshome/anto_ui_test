@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="zhiyinlou" preserve-order="true">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <listener class-name="com.zhiyinlou.apps.listener.TestngListener"/>
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+        <listener class-name="com.zhiyinlou.apps.listener.TestngRetryListener"/>
+    </listeners>
+
+    <test name="zhiyinlou_repayment" preserve-order="true">
+        <classes>
+            <class name="com.zhiyinlou.apps.testcase.login.LoginTcsPrimary"></class>
+            <class name="com.zhiyinlou.apps.testcase.login.LoginTcs"></class>
+            <class name="com.zhiyinlou.apps.testcase.Test.TestProvider"></class>
+        </classes>
+    </test>
+</suite>

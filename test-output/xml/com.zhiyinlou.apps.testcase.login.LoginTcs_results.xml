@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="zhiyinlou_repayment"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="19.906">
+  <properties />
+  
+  
+            <testcase name="test" time="19.906" classname="com.zhiyinlou.apps.testcase.login.LoginTcs" />
+      
+</testsuite>

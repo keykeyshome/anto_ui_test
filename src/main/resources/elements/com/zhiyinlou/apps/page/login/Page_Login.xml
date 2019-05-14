@@ -1,0 +1,8 @@
+<elements>
+	<WebInput name="请输入用户名" xpath="//input[@placeholder='请输入用户名']"></WebInput>
+	<WebInput name="请输入密码" xpath="//input[@placeholder='请输入密码']"></WebInput>
+<!-- 	<webButton name="登录" xpath="//button[@class='back-home-btn ivu-btn ivu-btn-default ivu-btn-long']"></webButton>
+ -->	
+    <WebCommon name="登录" xpath="//div[@class='ivu-form-item-content']/button[1]"></WebCommon>
+    <WebCommon name="返回系统" xpath="//div[@class='ivu-form-item-content']/button[2]"></WebCommon>
+</elements>

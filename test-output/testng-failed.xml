@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [zhiyinlou]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.zhiyinlou.apps.listener.TestngListener"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+    <listener class-name="com.zhiyinlou.apps.listener.TestngRetryListener"/>
+  </listeners>
+  <test name="zhiyinlou_repayment(failed)">
+    <classes>
+      <class name="com.zhiyinlou.apps.testcase.login.LoginTcsPrimary">
+        <methods>
+          <include name="init"/>
+          <include name="init_fields"/>
+          <include name="test"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.zhiyinlou.apps.testcase.login.LoginTcsPrimary -->
+    </classes>
+  </test> <!-- zhiyinlou_repayment(failed) -->
+</suite> <!-- Failed suite [zhiyinlou] -->

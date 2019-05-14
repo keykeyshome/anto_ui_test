@@ -1,0 +1,5 @@
+<elements>
+    <WebCommon name="口算出题" xpath="//div[@class='test-btn'][8]"></WebCommon>
+    <WebCommon name="配套练习册" xpath="//div[@class='test-btn'][4]"></WebCommon>
+    <WebCommon name="学情组卷" xpath="//div[@class='test-btn'][3]"></WebCommon>
+</elements>

@@ -1,0 +1,9 @@
+<elements>
+	<WebCommon name="章节出题" xpath="//div[@class='page']/div[1]/div[@class='card-content']/div[1]/div[1]"></WebCommon>
+	<WebCommon name="知识点出题" xpath="//div[@class='page']/div[1]/div[@class='card-content']/div[1]/div[2]"></WebCommon>	
+    <WebCommon name="DIY出题" xpath="//div[@class='page']/div[1]/div[@class='card-content']/div[1]/div[3]"></WebCommon>
+    <WebCommon name="学情组卷" xpath="//div[@class='page']/div[1]/div[@class='card-content']/div[1]/div[4]"></WebCommon>
+    <WebCommon name="手工组卷" xpath="//div[@class='page']/div[1]/div[@class='card-content']/div[1]/div[5]"></WebCommon>
+    <WebCommon name="精品卷库" xpath="//div[@class='ivu-form-item-content']/button[2]"></WebCommon>
+    <WebCommon name="我的卷库" xpath="//div[@class='ivu-form-item-content']/button[2]"></WebCommon>
+</elements>

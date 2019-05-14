@@ -1,0 +1,9 @@
+<elements>
+	<WebSpan name="用户名" xpath="//span[@class='ivu-badge']"></WebSpan>
+	<WebLi name="选题组卷" xpath="//li[@class='ivu-menu-item ivu-menu-item-active ivu-menu-item-selected']"></WebLi>
+	<WebLi name="考试阅卷" xpath="//li[@class='ivu-menu-item']"></WebLi>
+	<WebCommon name="学情分析" xpath="//div[@class='ivu-menu-submenu-title']"></WebCommon>
+	<WebCommon name="考试分析" xpath="//ul[@class='ivu-menu']/li[1]"></WebCommon>
+	<WebCommon name="学情追踪" xpath="//ul[@class='ivu-menu']/li[2]"></WebCommon>
+	<WebLi name="精品卷库" xpath="//li[@class='boutique']"></WebLi>
+</elements>
